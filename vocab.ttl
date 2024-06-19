@@ -22,8 +22,13 @@ mud: applications a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-mud: objets a rdfs:Class ;
-    rdfs:label "Unité de Formation et de Recherche" ;
+mud: artefact  a rdfs:Class ;
+    rdfs:label "Artefact " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud: exhibition   a rdfs:Class ;
+    rdfs:label "exhibition  " ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
