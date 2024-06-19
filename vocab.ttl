@@ -6,12 +6,11 @@
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix mud: <https://jardindesconnaissances.univ-paris8.fr/onto/mud#> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix schema: <http://schema.org/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
 
 <https://jardindesconnaissances.univ-paris8.fr/onto/mud> a owl:Ontology ;
-    dcterms:title "musee digital" .
-
+    dcterms:title "musée digital" .
 mud:technologie a rdfs:Class ;
     rdfs:label "Technologie" ;
     rdfs:domain o:Resource ;
