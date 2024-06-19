@@ -12,70 +12,96 @@
 <https://jardindesconnaissances.univ-paris8.fr/onto/mud> a owl:Ontology ;
     dcterms:title "musee digital" .
 
-mud:Departement a rdfs:Class ;
-    rdfs:label "Département" ;
+mud:technologie a rdfs:Class ;
+    rdfs:label "Technologie" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-mud:University a rdfs:Class ;
-    rdfs:label "Université" ;
+mud: applications a rdfs:Class ;
+    rdfs:label "Applications" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-mud:UFR a rdfs:Class ;
+mud: objets a rdfs:Class ;
     rdfs:label "Unité de Formation et de Recherche" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-mud:Mention a rdfs:Class ;
-    rdfs:label "Mention" ;
+mud: experiencevisiter a rdfs:Class ;
+    rdfs:label "Unité de Formation et de Recherche" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-mud:SalleCours a rdfs:Class ;
-    rdfs:label "Salle de cours" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .    
-
-mud:Parcours a rdfs:Class ;
-    rdfs:label "Parcours" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-mud:UE a rdfs:Class ;
-    rdfs:label "Unité d'enseignement" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-mud:EC a rdfs:Class ;
-    rdfs:label "Élément constitutif" ;
-    rdfs:domain o:Resource ;
-    owl:sameAs schema:Course ;    
-    vs:term_status "experimental" .
 
 
-mud:pcCM a rdf:Property ;
-    rdfs:label "% Cours magistraux" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
 
-mud:pcTD a rdf:Property ;
-    rdfs:label "% Travaux dirigés" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
+mud:techniqueUtilisee a rdf:Property ;
+   rdfs:label "techniqueutilisee" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
 
-mud:pcTP a rdf:Property ;
-    rdfs:label "% Travaux pratiques" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
+mud:logicielUtilise a rdf:Property ;
+   rdfs:label "logicielutilise" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
 
-mud:sd a rdf:Property ;
-    rdfs:label "Seuil dédoublement" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
+mud:methode a rdf:Property ;
+   rdfs:label "methode" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
 
-mud:libre a rdf:Property ;
-    rdfs:label "EC Libre" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
+mud:outilUtilise a rdf:Property ;
+   rdfs:label "outilUtilise" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+mud:experienceUtilisateur a rdf:Property ;
+   rdfs:label "experienceUtilisateur" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+mud:immersion a rdf:Property ;
+   rdfs:label "immersion" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+mud:interactivite a rdf:Property ;
+   rdfs:label "interactivite" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+mud:feedback a rdf:Property ;
+   rdfs:label "feedback" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+mud:accessibilite a rdf:Property ;
+   rdfs:label "accessibilite" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+mud:contenu a rdf:Property ;
+   rdfs:label "contenu" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+mud:scenographie a rdf:Property ;
+   rdfs:label "scenographie" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+mud:theme a rdf:Property ;
+   rdfs:label "theme" ;
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" 
+
+
+
+
+
+
+
+
+
+
 
