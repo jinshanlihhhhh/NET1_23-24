@@ -99,7 +99,71 @@ mud:theme a rdf:Property ;
    rdfs:domain o:Resource ;
    vs:term_status "experimental" 
 
+mud:modélisation a rdf:Property ;
+    rdfs:label "Modélisation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+mud:augmentedReality a rdf:Property ;
+    rdfs:label "Augmented Reality (AR)" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:digitalization a rdf:Property ;
+    rdfs:label "Digitalization" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:realiteVirtuelle a rdf:Property ;
+    rdfs:label "Réalité virtuelle (VR)" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:modelisationNumerique a rdf:Property ;
+    rdfs:label "Modélisation numérique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:nFT a rdf:Property ;
+    rdfs:label "NFT (non-fungible token)" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:protectionPatrimoine a rdf:Property ;
+    rdfs:label "Protection patrimoine" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:restoration a rdf:Property ;
+    rdfs:label "Restoration" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+mud:GuideVirtuelle a rdf:Property ;
+    rdfs:label "Guide virtuelle" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:MuseeVirtuelle a rdf:Property ;
+    rdfs:label "Musée virtuelle" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:NumerisationArchive a rdf:Property ;
+    rdfs:label "Numérisation d'Archive" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:CulturalRelics a rdf:Property ;
+    rdfs:label "Cultural relics" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mud:Heritages a rdf:Property ;
+    rdfs:label "Heritages / Patrimoine" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
 
 
