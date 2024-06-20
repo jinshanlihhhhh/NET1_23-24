@@ -37,15 +37,18 @@ mud: experiencevisiter a rdfs:Class ;
     vs:term_status "experimental" .
 
 
+mud:title rdf:Property ;
+    rdfs:label "title" ;
+    rdfs:domain mud:Artifact ;
+    rdfs:range rdfs:Literal .
 
+mud:dateCreated rdf:Property ;
+    rdfs:label "date created" ;
+    rdfs:domain mud:Artifact ;
+    rdfs:range xsd:date .
 
 mud:techniqueUtilisee a rdf:Property ;
    rdfs:label "techniqueutilisee" ;
-   rdfs:domain o:Resource ;
-   vs:term_status "experimental" .
-
-mud:logicielUtilise a rdf:Property ;
-   rdfs:label "logicielutilise" ;
    rdfs:domain o:Resource ;
    vs:term_status "experimental" .
 
